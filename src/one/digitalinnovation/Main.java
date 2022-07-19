@@ -15,11 +15,18 @@ public class Main {
 		Mensagem.obterMensagem(9);
 		Mensagem.obterMensagem(15);
 		Mensagem.obterMensagem(23);
+
 		// Empréstimo
 		System.out.println("Exercício empréstimo");
 		Emprestimo.calcular(1000 , Emprestimo.getDuasParcelas());
 		Emprestimo.calcular(1000 , Emprestimo.getTresParcelas());
 		Emprestimo.calcular(1000 , 4);
+
+		// Quadrilátero
+		System.out.println("Exercício Quadrilátero");
+		Quadrilatero.area(3);
+		Quadrilatero.area(4, 4);
+		Quadrilatero.area(7, 8, 12);
 	}
 
 }
